@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+  }
+
+#navg{
+    float: right;
+    margin-top: 1%;
+   
+    
+}
+#navg > a {
+    margin-right: 15px;
+    padding-left: 35px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    
+}
+#navg  a:hover{
+    color: blue;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+#hom{
+    border-style: dashed;
+    width: 100px;
+    
+}
+#abt{
+    border-style: dotted;
+    
+}
+#blog{
+    border-style: double;
+    
+}
+#cont{
+    border-style: groove;
+    
+}
+#sing{
+    border-style:solid;
+    
+}
+
+#img {
+    width:550px;
+    margin-top: 3%;
+    position: relative;
+    margin-left: 29%;
+}
+img +p{
+    text-align: justify;
+}
+#rootmap{
+    border-radius: 65%;
+    width: 550px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #rootmap2{
+    width: 550px;
+    border-color: solid 8px #0000ff;
+  }
+
+#rootmap2:hover{
+    border-color: solid 2px #0000ff;
+    border-radius: 65%;
+    transition: 1s;
+ 
+  }
+#font{
+    position:absolute;
+    margin-top: 10%;
+    margin-left: 42%;
+    
+}
+
+#google{
+    width: 550px;
+    margin-top: 12%;
+    margin-left:33%;
+    
+}
+#ourm{
+    color: #9550d6;
+    font-size: 50px;
+    font-family: poppins;
+    text-align: center;
+}
+#pwtext{
+    font-size: 22px;
+    text-align: center;
+    word-wrap: break-word;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#mission{
+    width: 560px;
+    margin-left: 32%;
+}
+#buffer{
+    margin-left: 45%;
+    width: 150px;
+    height: 150px;
+    opacity: 0.2;
+}
+#buffer:hover{
+    opacity: 1;
+    transition: 2s;
+}
